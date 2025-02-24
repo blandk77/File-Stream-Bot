@@ -17,9 +17,9 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = int(getenv('API_ID', '26728872'))
     API_HASH = str(getenv('API_HASH', '96985c2aaea6c75408528909b7e18879'))
-    BOT_TOKEN = str(getenv('BOT_TOKEN' , '7825342391:AAHcA9HPcf2uEzKWlZwTHKxIksPwIRvPNX4'))
+    BOT_TOKEN = str(getenv('BOT_TOKEN' , '7512502745:AAFJMb_sVQx8_vejyv0xbBY26W8i3D3OzEo'))
     PICS = (environ.get('PICS', 'https://envs.sh/jUp.jpg')).split()
-    name = str(getenv('name', 'not_ur_robot'))
+    name = str(getenv('name', 'FilesXstreamerobot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002458319512'))
